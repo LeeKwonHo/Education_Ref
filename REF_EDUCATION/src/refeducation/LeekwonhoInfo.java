@@ -15,11 +15,14 @@ public class LeekwonhoInfo {
 		this.living = living;
 		
 	}
+	
 	public LeekwonhoInfo(int age, int footSize, int tallSize) { // 생성자 오버로드로 인해 숫자가 들어올떄만 사용하게 지정
 		this.age = age;
 		this.footSize = footSize;
 		this.tallSize = tallSize;
 	}
+	
+	
 	int getAge(int age) { //만 나이를 구하는 메소드
 		return age = age - 2;
 		
