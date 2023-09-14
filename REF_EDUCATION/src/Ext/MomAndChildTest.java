@@ -3,7 +3,8 @@ package Ext;
 public class MomAndChildTest {
 
 	public static void main(String[] args) {
-		new Child("Mom");
+		Child kid = new Child("Hi");
+		kid.Child();
 	}
 
 }

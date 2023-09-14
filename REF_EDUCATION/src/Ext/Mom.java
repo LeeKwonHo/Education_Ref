@@ -5,6 +5,6 @@ public class Mom {
 	
 	public  Mom(String mom) {
 		this.mom = mom;
-		System.out.println("You Said: "+mom);
+		System.out.println(mom);
 	}
 }
