@@ -8,7 +8,7 @@ public class OnlyOneFly {
 	private OnlyOneFly() { //생성자도 잠궈버림 하지만 계속 사용가능
 	}
 	
-	public static OnlyOneFly getIntace() { //퍼블릭 스태틱으로 열어둔 겟인스턴스 기능만 사용가능하게
+	public static OnlyOneFly getIntance() { //퍼블릭 스태틱으로 열어둔 겟인스턴스 기능만 사용가능하게
 		
 		if( null == onlyonefly) {    //하지만 생성자가 존재하지 않을때만
 			onlyonefly = new OnlyOneFly(); //new로 하나의 생성자만 올려줌
