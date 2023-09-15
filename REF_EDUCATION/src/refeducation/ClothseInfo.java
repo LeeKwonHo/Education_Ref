@@ -2,11 +2,12 @@ package refeducation;
 
 public class ClothseInfo {
 	static String DESIGNER = "LeeKwonHo"; //디자이너는 한명
+	
 	String colthesType;
 	String size;
 	String color;
 	String style;
-	public double vat;
+	double vat;
 	double fullPrice;
 	
 	public ClothseInfo(String colthesType
