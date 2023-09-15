@@ -9,16 +9,20 @@ public class ClothseInfo {
 	String style;
 	double vat;
 	double fullPrice;
+	int a;
 	
 	public ClothseInfo(String colthesType
 			,String size
 			,String color
 			,String style) {
-		
 		this.colthesType = colthesType;
 		this.size = size;
 		this.color = color;
 		this.style = style;
+	}
+	public ClothseInfo(int a) {
+		
+		this.a = a;
 	}
 	
 	double getPrice(double vat) {
