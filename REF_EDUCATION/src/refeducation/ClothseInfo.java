@@ -6,7 +6,7 @@ public class ClothseInfo {
 	String size;
 	String color;
 	String style;
-	double vat;
+	public double vat;
 	double fullPrice;
 	
 	public ClothseInfo(String colthesType
