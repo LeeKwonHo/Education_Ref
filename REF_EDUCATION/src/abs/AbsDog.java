@@ -5,10 +5,7 @@ public class AbsDog extends AbstractExAnimal{
 	@Override
 	void Sound() {
 		System.out.println("Dog Sound");
-		
 	}
-
-	@Override
 	void Move() {
 		System.out.println("Move Dog");
 	}

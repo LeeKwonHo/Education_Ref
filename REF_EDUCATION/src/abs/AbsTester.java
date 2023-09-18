@@ -6,6 +6,7 @@ public class AbsTester {
 		AbsDog dog = new AbsDog();
 		AbsCat cat = new AbsCat();
 		//추상메소드를 오버라이딩한 실체클래스를 인스턴스해 메소드를 사용
+		
 		dog.Sound();
 		dog.Move();
 		dog.dogdog();
